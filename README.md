@@ -45,3 +45,4 @@ To run test just invoke `yarn test`
 * Look at `location.href` and grab the hash out of it
   * `copy(new URL(location.href).pathname.match(/@(\w+)/)[1])`
 * Pop that into the hash in `docs/index.html`
+
